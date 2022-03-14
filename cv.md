@@ -37,3 +37,26 @@ I am 19 years old, I am a beginner __front-end__ developer. I study new technolo
         (_2020 - current moment_).
 - __Courses:__ 
     - Stepik JavaScript for beginners.
+
+### Code Exemples
+
+```
+/*
+[[ 1, 2, 3, 4, 5 ], [ 5, 6, 7, 8, 9 ], [ 20, 21, 34, 56, 100 ]]
+{1 + 5 + 20 = 26}
+*/
+function sumOfMinimums(arr) {
+  let res = 0;
+  for(let i = 0; i < arr.length; i++){   
+    arr[i] = arr[i].sort((a, b) => a - b);
+    res += arr[i][0];
+  }
+  return res;
+}
+```
+
+### Languages
+- Russian: (_native speaker_)
+- __English:__ level A2 (I study in parallel with programming)
+
+***
