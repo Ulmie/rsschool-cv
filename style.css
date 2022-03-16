@@ -84,3 +84,45 @@ body {
     background-color: rgb(118, 205, 216);
     transition: width .5s;
 }
+
+/* Intro */
+
+.intro-inner {
+
+    padding: 30px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.intro-photo {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin-right: 25px;
+    border: rgb(118, 205, 216) 3px solid;
+}
+
+.intro-title {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(118, 205, 216);
+}
+
+.intro-subtitle {
+    display: flex;
+    align-items: center;
+}
+
+.subtitle-text {
+    font-size: 35px;
+    font-weight: 200;
+    font-family: 'Montserrat', sans-serif;
+    color: #231f20;
+    padding-right: 5px;    
+}
+
+.subtitle-logo {
+    width: 24px;
+    height: 24px;
+}
