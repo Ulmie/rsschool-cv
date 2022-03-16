@@ -126,3 +126,145 @@ body {
     width: 24px;
     height: 24px;
 }
+
+/* Content */
+
+.content-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: repeat(3, 1fr);
+    margin-bottom: 50px;
+}
+
+.content-wrapper div {
+    margin: 10px;
+
+}
+
+.content-box1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.content-title {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(118, 205, 216);
+    border-bottom: rgb(118, 205, 216) 1px solid;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.content-text {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: #231f20;
+    line-height: 1.5;
+    width: 85%;
+}
+
+.content-text span {
+    color: rgb(118, 205, 216);
+}
+
+.content-box2 {
+    grid-column-start: 1;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+.skill-item {
+    display: flex;
+    align-items: center;
+}
+
+.skill-logo {
+    width: 32px;
+}
+
+.skill-name {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: #231f20;
+    padding-left: 5px;
+}
+
+.content-box3 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.content-box4 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.list-l1 {
+    margin-left: 25px;
+    line-height: 1.5;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: #231f20;
+}
+
+.list-l2 {
+    margin-left: 15px;
+    line-height: 1.3;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: #231f20;
+}
+
+.list-l3 {
+    line-height: 1.3;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: #231f20;
+}
+
+li {
+    color: rgb(118, 205, 216);
+    padding-bottom: 5px;
+}
+
+li span {
+    color: #231f20;
+}
+
+.content-box5 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+/* Code */
+
+.code {
+    margin-left: 10px;
+    padding: 20px 0 0 20px;
+    background-color: lightgray;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(41, 45, 245);
+}
+
+.purple {
+    color:purple;
+}
+
+.blue {
+    color:rgb(245, 61, 61);
+}
+
+.black {
+    color: #000;
+}
+
