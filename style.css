@@ -268,3 +268,48 @@ li span {
     color: #000;
 }
 
+/* Footer */
+
+.footer {
+    background-color: #231f20;
+    border-radius: 0 0 30px 30px;
+}
+
+.content-title.foot {
+    color: #fff;
+    border-bottom: #fff 1px solid;
+}
+
+.footer-inner {
+    padding: 20px 10px;
+}
+
+.contacts-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contacts-item {
+    width: 33.33333%;
+    display: flex;
+    align-items: center;
+    margin: 20px 0 20px 0;
+}
+
+.contact-name {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 200;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 10px;
+}
+
+/* Coperite */
+
+.footer-copir {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 200;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
