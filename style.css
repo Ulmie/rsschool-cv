@@ -296,6 +296,10 @@ li span {
     margin: 20px 0 20px 0;
 }
 
+.contact-logo {
+    width: 24px;
+}
+
 .contact-name {
     color: #fff;
     font-size: 18px;
