@@ -289,13 +289,13 @@ li span {
 
 .projects-wrapper {
     display: flex;
-    
+    flex-wrap: wrap;
     
 }
 
 .projects-item {
-    width: 33.33333%;
-    margin: 0 15px;
+    width: 30.33333%;
+    margin: 0 10px 15px;
     text-decoration: none;
     color: #000;
     font-family: 'Montserrat', sans-serif;
