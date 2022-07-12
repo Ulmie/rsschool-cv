@@ -290,7 +290,7 @@ li span {
 .projects-wrapper {
     display: flex;
     flex-wrap: wrap;
-    
+    justify-content: center;
 }
 
 .projects-item {
@@ -332,6 +332,11 @@ li span {
 
 .js {
     color: yellow;
+}
+
+.react {
+    color: rgb(0, 17, 255);
+    background-color: #fff;
 }
 /* Footer */
 
